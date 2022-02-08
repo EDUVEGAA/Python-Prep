@@ -119,12 +119,15 @@ bin(4)
 
 2 + '2'
 error porque los dos operandos no son del mismo tipo
+
 float(2) + float('2')
-4.0
+#4.0
+
 int(2) + int('2')
-4
+#4
+
 str(2) + str('2')
-22
+#22
 
 26) Realizar una operación válida entre valores de tipo entero y string
 
