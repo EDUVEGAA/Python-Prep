@@ -1,16 +1,30 @@
 ## Variables
 
 1) Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla
-
-
-
+import random
+x = random.randint(0,10000000)
+print(x)
+     
 2) Imprimir el tipo de dato de la constante 8.5
+#import types
+x = 8.5
+print(type(x))
+
+x = 69
+print(type(x))
 
 3) Imprimir el tipo de dato de la variable creada en el punto 1
+import random
+x = random.randint(0,10000000)
+print(type(x))
 
 4) Crear una variable que contenga tu nombre
+nombre = 'eduardo'
+print(nombre)
 
 5) Crear una variable que contenga un número complejo
+x = 3 + 2j
+print(type(x))
 
 6) Mostrar el tipo de dato de la variable crada en el punto 5
 
