@@ -1,5 +1,23 @@
 ## Variables
 
+def new_func1():
+    #def ingresar_numero():
+        a = int(input('Ingrese un numero: '))
+    #print 'El numero ingresado es: ', numero
+    
+#a = input ("ingresar un numero")
+#a = 10
+        if (a < 0):
+            print('La variable es menor a cero')
+        elif (a > 0): 
+            print('La varaible es mayor a cero')
+        else:
+            print('La variable es igual a cero')
+
+new_func1()
+
+
+
 1) Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla
 import random
 x = random.randint(0,10000000)
@@ -61,14 +79,20 @@ x = 8 * 4.6
 print(x)
 14) Mostrar el resultado de elevar 2 a la octava potencia
 print(2**8)
+
+
 15) Obtener el cociente de la división de 27 entre 4 en una variable y luego mostrarla
 print(27 / 4)
 16) De la división anterior solamente mostrar la parte entera
 print(27 // 4)
+
+
 17) De la división de 27 entre 4 mostrar solamente el resto
 print(27 % 4)
+
 18) Utilizando como operandos el número 4 y los resultados obtenidos en los puntos 16 y 17. Obtener 27 como resultado
 print(4*(27 // 4)+(27 % 4))
+
 19) Utilizar el operador "+" en una operación donde intervengan solo variables alfanuméricas
 var1 = '3duard0 '
 var2 = 'v3g4'
