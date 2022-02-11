@@ -1,0 +1,21 @@
+Dim PUNT_MAT 
+
+if [MATERIAL] = "PAD"  or [MATERIAL] = "PEAD" or [MATERIAL] = "PVCO" or [MATERIAL] = "PVC-O" or [MATERIAL] = "HD" or [MATERIAL] = "PD" then
+PUNT_MAT = "5"
+
+elseif [MATERIAL] = "PE" or [MATERIAL] = "ACER"  or [MATERIAL] = "PR" then
+PUNT_MAT = "4"
+
+elseif [MATERIAL] = "PVC" or [MATERIAL] = "FV" or [MATERIAL] =  "AR" then
+PUNT_MAT = "3"
+
+elseif [MATERIAL] = "CR"  or [MATERIAL] = "AC" or  [MATERIAL] = "PRET" or [MATERIAL] =  "HF"  or [MATERIAL] =  "FOFO"  or [MATERIAL] = "FoFo" or [MATERIAL] =  "ALB" then
+PUNT_MAT = "2"
+
+elseif [MATERIAL] = "FOGO"  or [MATERIAL] = "CP" or [MATERIAL] = "CSN" or [MATERIAL] = "HUME" or [MATERIAL] = "MAG" or [MATERIAL] = "FoGo" then
+PUNT_MAT = "1"
+
+else
+PUNT_MAT = "0" 
+
+end if

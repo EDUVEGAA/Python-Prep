@@ -1,5 +1,18 @@
 ## Variables
 
+
+a = int(input("Ingrese numero: "))
+a_cap = a
+b = 1
+while a > 0:
+    b = b * a
+    a = a - 1
+
+print("Factorial de", a_cap ,"es", b)
+
+##################
+
+
 def new_func1():
     #def ingresar_numero():
         a = int(input('Ingrese un numero: '))
@@ -16,7 +29,7 @@ def new_func1():
 
 new_func1()
 
-
+####################
 
 1) Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla
 import random
