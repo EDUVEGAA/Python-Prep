@@ -131,7 +131,7 @@ while (n < tope_rango):
 
 # In[55]:
 
-
+tope_rango=30
 n = 0
 primo = True
 while (n < tope_rango):

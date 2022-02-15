@@ -258,12 +258,86 @@ def multi_func8():
         print('Tabla '+ str(i) + ' X '+ str(n) +" = "+ str(i*n))
 multi_func8()
 
-
 9) Imprimir los números primos existentes entre 0 y 30
 
+def primof():
+n = 0
+primo = True
+while (n < 30):
+    n+=1
+    for divisor in range(2, n): #un ciclo desde el 2 hasta el num de entrada
+        if n % divisor == 0: #si el resto da 0 no es primo, devuelve Falso
+            primo = False
+    if primo:
+        print(n)
+    else: 
+        primo = True 
+primof()
 
+def primo1():
+num = 0
+primo = True
+while (n < 30):
+    n+=1
+    if num < 2: #si es menor de 2 no es primo, devolverá Falso
+        return primo = False
+    for i in range(2, num): #un ciclo desde el 2 hasta el num de entrada
+            if num % i == 0: #si el resto da 0 no es primo, devuelve Falso
+                return primo = False
+    return primo: True #de lo contrario devuelve Verdadero
 
+primo1()
+
+################################################################
+#El 1º ejemplo nos dice si el número es primo o no y los divisores que tiene:
+
+def primo2():
+    numero= int(input("¿Qué número quieres saber si es primo? "))
+    valor= range(2,numero)
+    contador = 0
+    for n in valor:
+        if numero % n == 0:
+            contador +=1
+            print("divisor:", n)
+    if contador > 0 :
+        print("El número no es primo" )
+    else:
+        print("El nÚmero es primo")
+primo2()
+  
+Resultado:
+¿Qué número quieres saber si es primo? 6
+divisor: 2
+divisor: 3
+El número no es primo
+
+######################################
+En el 2º ejemplo vamos a crear la función primo.
+
+def primo(num):
+ if num < 2: #si es menor de 2 no es primo, devolverá Falso
+   return False
+ for i in range(2, num): #un ciclo desde el 2 hasta el num de entrada
+   if num % i == 0: #si el resto da 0 no es primo, devuelve Falso
+    return False
+ return True #de lo contrario devuelve Verdadero
+print(primo(3))
+
+Resultado:
+primo(3)
+True
+################################################3333333
 10) ¿Se puede mejorar el proceso del punto 9? Utilizar las sentencias break y/ó continue para tal fin
+
+for i in range(1, 4):
+    print(i)
+    
+    
+i = 1
+while (i<4):
+    print(i)
+    i+=1   #i=i+1
+
 
 11) En los puntos 9 y 10, se diseño un código que encuentra números primos y además se lo optimizó. ¿Es posible saber en qué medida se optimizó?
 
