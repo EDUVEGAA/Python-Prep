@@ -1,5 +1,10 @@
 ## Estructuras de Datos
-
+cadena = 'Python'
+for letra in cadena:
+    if letra == 'P':
+        continue
+    print(letra)
+    
 1) Crear una lista que contenga nombres de ciudades del mundo que contenga más de 5 elementos e imprimir por pantalla
 
 def paises_func8():
@@ -22,15 +27,20 @@ paises_func8()
 
 3) Imprimir por pantalla del segundo al cuarto elemento
 
+
+
 4) Visualizar el tipo de dato de la lista
 
 5) Visualizar todos los elementos de la lista a partir del tercero de manera genérica, es decir, sin explicitar la posición del último elemento
 
 6) Visualizar los primeros 4 elementos de la lista
+print ("Hola Henry, gracias profesor")
 
 7) Agregar una ciudad más a la lista que ya exista y otra que no ¿Arroja algún tipo de error?
 
 8) Agregar otra ciudad, pero en la cuarta posición
+
+
 
 9) Concatenar otra lista a la ya creada
 
